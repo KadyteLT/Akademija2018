@@ -1,0 +1,14 @@
+{
+  "name": "zivile/nfq2018autumn",
+  "description": "",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Zivile Sakiene",
+      "email": "z.sakiene@gmail.com"
+    }
+  ],
+  "require": {
+    "google/recaptcha": "^1.2"
+  }
+}
