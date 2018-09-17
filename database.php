@@ -6,11 +6,11 @@ if (getenv("CLEARDB_DATABASE_URL")) {
     $dbusername = $dburl["user"];
     $dbpassword = isset($dburl["pass"]) ? $dburl["pass"] : '';
     $dbdatabase = substr($dburl["path"], 1);
-//} else {
-//    $dbhost = "localhost";
-//    $dbusername = "root";
-//    $dbpassword = "";
-//    $dbdatabase = "jumpers_eshop";
+} else {
+    $dbhost = "localhost";
+    $dbusername = "root";
+    $dbpassword = "";
+    $dbdatabase = "jumpers_eshop";
 }
 
 $connect = mysqli_connect($dbhost, $dbusername, $dbpassword, $dbdatabase);
